@@ -71,8 +71,8 @@ SSH into your VM from the Google Cloud Console and follow these steps:
      4. Your domain name (FQDN)
      5. Your email address (for Let's Encrypt SSL)
    ```bash
-   chmod +x setup.sh
-   sudo ./setup.sh <pg-database-name> <pg-user-name> <pg-user-password> <your-domain-name> <your-email-id>
+   chmod +x ./setup.sh
+   sudo ./setup.sh '<pg-database-name>' '<pg-user-name>' '<pg-user-password>' '<your-domain-name>' '<your-email-id>'
    ```
 
    The script will:
